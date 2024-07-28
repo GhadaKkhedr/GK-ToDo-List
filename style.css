@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(217, 193, 240);
+    background-image: "images/giphy.gif";
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#note {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+#new_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+#AddItem {
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+button {
+    border: 2px solid rgb(138, 74, 138);
+    padding: 10px;
+    border-radius: 20px;
+    transform: translateX(-55px);
+}
+
+.list {
+    width: 100%;
+
+    display: table;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center;*/
+}
+
+ol {
+    background-color: whitesmoke;
+    color: rgb(138, 74, 138);
+    border: 2px solid rgb(138, 74, 138);
+    margin: 30px;
+    padding: 30px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+li {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close {
+    /* src: url("images/close.gif");
+    background-image: "images/close.gif";*/
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.row {
+    display: table-row;
+}

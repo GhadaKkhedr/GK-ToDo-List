@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <header>
+        <h1> ToDo List</h1>
+        <img id="note" src="images/Notepad.gif">
+    </header>
+    <div class="container">
+        <div id="new_item">
+            <h3><label for="AddItem">Add your item to List : </label></h3>
+            <input id="AddItem" type="text" placeholder="Add your task..." />
+            <button onclick="AddItemToList()">Add</button>
+        </div>
+        <div class="list">
+            <ol id="ListItems">
+
+            </ol>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
